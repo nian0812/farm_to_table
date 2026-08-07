@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://daxe8r34xbkt6"]
+
+[ext_resource type="Script" uid="uid://b0kfdfjh4j0i7" path="res://scenes/ui/HUD.gd" id="1_0ioyp"]
+
+[node name="Hub" type="CanvasLayer" unique_id=436672543]
+script = ExtResource("1_0ioyp")
+
+[node name="TopBar" type="HBoxContainer" parent="." unique_id=1675858900]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+theme_override_constants/separation = 20
+
+[node name="RestaurantFundsLabel" type="Label" parent="TopBar" unique_id=69988350]
+layout_mode = 2
+
+[node name="PlayerWalletLabel" type="Label" parent="TopBar" unique_id=1516156653]
+layout_mode = 2
+
+[node name="TimerLabel" type="Label" parent="TopBar" unique_id=153718969]
+layout_mode = 2
+
+[node name="WithdrawBtn" type="Button" parent="TopBar" unique_id=1481108884]
+layout_mode = 2
+
+[node name="InventoryBtn" type="Button" parent="TopBar" unique_id=22562224]
+layout_mode = 2
+text = "📦 Kho Đồ & Xe Tải"
+
+[node name="SeedSelector" type="PanelContainer" parent="." unique_id=1631326593]
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -40.0
+offset_right = 317.0
+grow_vertical = 0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="SeedSelector" unique_id=2126632529]
+layout_mode = 2
+
+[node name="RiceBtn" type="Button" parent="SeedSelector/HBoxContainer" unique_id=1686790786]
+layout_mode = 2
+text = "Trồng Lúa Tẻ (20k)"
+
+[node name="TomatoBtn" type="Button" parent="SeedSelector/HBoxContainer" unique_id=1124391043]
+layout_mode = 2
+text = "Trồng Cà Chua (50k)"
+
+[node name="InventoryPanel" type="PanelContainer" parent="." unique_id=455087743]
+visible = false
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="InventoryPanel" unique_id=1947820133]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="InventoryPanel/VBoxContainer" unique_id=770067417]
+layout_mode = 2
+text = "KHO NÔNG SẢN & XE TẢI CHỞ HÀNG"
+
+[node name="ItemListLabel" type="Label" parent="InventoryPanel/VBoxContainer" unique_id=1531773087]
+layout_mode = 2
+text = "Lúa: 0 | Cà chua: 0"
+
+[node name="SendTruckBtn" type="Button" parent="InventoryPanel/VBoxContainer" unique_id=493245864]
+layout_mode = 2
+text = "🚚 Vận Chuyển tất cả nông sản qua Xe tải"
+
+[node name="ClosePanelBtn" type="Button" parent="InventoryPanel/VBoxContainer" unique_id=2132702318]
+layout_mode = 2
+text = "Đóng"
+
+[connection signal="pressed" from="TopBar/InventoryBtn" to="." method="_on_inventory_btn_pressed"]
+[connection signal="pressed" from="InventoryPanel/VBoxContainer/SendTruckBtn" to="." method="_on_send_truck_btn_pressed"]
+[connection signal="pressed" from="InventoryPanel/VBoxContainer/ClosePanelBtn" to="." method="_on_close_panel_btn_pressed"]

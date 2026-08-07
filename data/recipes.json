@@ -1,0 +1,12 @@
+[
+  {
+	"recipe_id": "dish_fried_rice",
+	"name": "Cơm Chiên Dương Châu",
+	"prep_time_seconds": 12,
+	"selling_price_vnd": 65000,
+	"required_ingredients": [
+	  { "item_id": "item_rice_grain", "qty": 1 }
+	],
+	"unlocked_at_level": 1
+  }
+]

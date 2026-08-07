@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://bex13gtpon73o"]
+
+[ext_resource type="Texture2D" uid="uid://b6ntaq0xgm8w4" path="res://icon.svg" id="1_hlpwi"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lf1fv"]
+texture = ExtResource("1_hlpwi")
+texture_region_size = Vector2i(128, 64)
+0:0/0 = 0
+0:1/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_qdkak"]
+tile_shape = 1
+tile_layout = 5
+tile_size = Vector2i(128, 64)
+sources/0 = SubResource("TileSetAtlasSource_lf1fv")
+
+[node name="FarmMap" type="Node2D" unique_id=24638079]
+position = Vector2(600, 300)
+
+[node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1471972027]
+tile_set = SubResource("TileSet_qdkak")

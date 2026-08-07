@@ -1,0 +1,10 @@
+[
+  {
+	"import_id": "imp_beef_wagyu",
+	"name": "Thịt Bò Wagyu",
+	"base_price_vnd": 150000,
+	"import_tax_percent": 10,
+	"shipping_time_seconds": 60,
+	"unlocked_at_level": 3
+  }
+]
