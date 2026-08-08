@@ -1,0 +1,11 @@
+[
+  {
+	"fish_id": "fish_snakehead",
+	"name": "Cá lóc",
+	"buy_price_vnd": 10000,
+	"asset_value_vnd": 15000,
+	"harvest_item_id": "item_snakehead",
+	"harvest_yield": 1,
+	"growth_time_days": 2
+  }
+]

@@ -20,6 +20,9 @@ config/icon="res://icon.svg"
 EventManager="*uid://ctk7wpuqwfuf4"
 GameManager="*uid://bitwegcxycq8x"
 StaffManager="*uid://cm83v2qij7bks"
+ProgressionManager="*uid://3k8dr81ketus"
+LivestockManager="*uid://cyn6uywmcovgm"
+AquacultureManager="*uid://c7ag6y0mdwctc"
 
 [display]
 

@@ -6,6 +6,7 @@
 [node name="Main" type="Node2D" unique_id=848583195]
 
 [node name="FarmMap" parent="." unique_id=24638079 instance=ExtResource("1_0wfyh")]
+position = Vector2(32, -13)
 
 [node name="Hub" parent="." unique_id=436672543 instance=ExtResource("2_sugp2")]
 

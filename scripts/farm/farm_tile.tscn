@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://b4quvahv7buja"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k84gh"]
+size = Vector2(101, 58)
+
+[node name="FarmTile" type="Area2D" unique_id=823616891]
+position = Vector2(33, 33)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=902665652]
+position = Vector2(40.5, 19)
+shape = SubResource("RectangleShape2D_k84gh")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=313228588]
+offset_left = -1.0
+offset_right = 39.0
+offset_bottom = 40.0
+mouse_filter = 2

@@ -1,0 +1,14 @@
+[
+  {
+	"building_id": "bld_farm_land",
+	"name": "Đất canh tác",
+	"current_level": 1,
+	"asset_value": 200000
+  },
+  {
+	"building_id": "bld_restaurant",
+	"name": "Nhà hàng",
+	"current_level": 1,
+	"asset_value": 300000
+  }
+]

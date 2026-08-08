@@ -1,0 +1,24 @@
+[
+  {
+	"anim_id": "anim_chicken",
+	"name": "Gà đẻ trứng",
+	"buy_price_vnd": 50000,
+	"asset_value_vnd": 40000,
+	"daily_product_id": "item_egg",
+	"daily_yield": 1,
+	"meat_product_id": "item_chicken_meat",
+	"meat_yield": 1,
+	"lifespan_days": 5
+  },
+  {
+	"anim_id": "anim_cow",
+	"name": "Bò thịt",
+	"buy_price_vnd": 500000,
+	"asset_value_vnd": 450000,
+	"daily_product_id": "",
+	"daily_yield": 0,
+	"meat_product_id": "item_beef",
+	"meat_yield": 2,
+	"lifespan_days": 8
+  },
+]

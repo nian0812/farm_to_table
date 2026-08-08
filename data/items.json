@@ -1,0 +1,51 @@
+[
+  {
+	"item_id": "item_rice_grain",
+	"name": "Lúa tẻ",
+	"category": "crop",
+	"base_value_vnd": 6000,
+	"sell_price_vnd": 8000
+  },
+  {
+	"item_id": "item_tomato",
+	"name": "Cà chua",
+	"category": "crop",
+	"base_value_vnd": 12000,
+	"sell_price_vnd": 18000
+  },
+  {
+	"item_id": "item_cabbage",
+	"name": "Bắp cải",
+	"category": "crop",
+	"base_value_vnd": 10000,
+	"sell_price_vnd": 15000
+  },
+{
+	"item_id": "item_egg",
+	"name": "Trứng gà",
+	"category": "animal_product",
+	"base_value_vnd": 3000,
+	"sell_price_vnd": 5000
+  },
+  {
+	"item_id": "item_chicken_meat",
+	"name": "Thịt gà",
+	"category": "meat",
+	"base_value_vnd": 40000,
+	"sell_price_vnd": 55000
+  },
+  {
+	"item_id": "item_beef",
+	"name": "Thịt bò",
+	"category": "meat",
+	"base_value_vnd": 120000,
+	"sell_price_vnd": 160000
+  },
+{
+	"item_id": "item_snakehead",
+	"name": "Cá lóc",
+	"category": "fish",
+	"base_value_vnd": 25000,
+	"sell_price_vnd": 40000
+  }
+]

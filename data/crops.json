@@ -3,18 +3,27 @@
 	"crop_id": "crop_rice",
 	"name": "Lúa Tẻ",
 	"seed_price_vnd": 20000,
-	"growth_time_seconds": 45,
+	"growth_time_seconds": 15,
 	"harvest_item_id": "item_rice_grain",
 	"harvest_yield_qty": 5,
-	"unlocked_at_level": 1
+	"repeat_harvest": false
   },
   {
 	"crop_id": "crop_tomato",
 	"name": "Cà Chua",
 	"seed_price_vnd": 50000,
-	"growth_time_seconds": 60,
+	"growth_time_seconds": 25,
 	"harvest_item_id": "item_tomato",
 	"harvest_yield_qty": 4,
-	"unlocked_at_level": 2
+	"repeat_harvest": true
+  },
+  {
+	"crop_id": "crop_cabbage",
+	"name": "Bắp Cải",
+	"seed_price_vnd": 30000,
+	"growth_time_seconds": 20,
+	"harvest_item_id": "item_cabbage",
+	"harvest_yield_qty": 3,
+	"repeat_harvest": false
   }
 ]

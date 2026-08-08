@@ -1,6 +1,8 @@
 [gd_scene format=3 uid="uid://bex13gtpon73o"]
 
 [ext_resource type="Texture2D" uid="uid://b6ntaq0xgm8w4" path="res://icon.svg" id="1_hlpwi"]
+[ext_resource type="PackedScene" uid="uid://b4quvahv7buja" path="res://scripts/farm/farm_tile.tscn" id="2_lf1fv"]
+[ext_resource type="Script" uid="uid://bmwjdiwmf1ttc" path="res://scripts/farm/FarmTile.gd" id="3_l1qm2"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lf1fv"]
 texture = ExtResource("1_hlpwi")
@@ -19,3 +21,27 @@ position = Vector2(600, 300)
 
 [node name="TileMapLayer" type="TileMapLayer" parent="." unique_id=1471972027]
 tile_set = SubResource("TileSet_qdkak")
+
+[node name="FarmTile" parent="." unique_id=823616891 instance=ExtResource("2_lf1fv")]
+position = Vector2(-488, -294)
+script = ExtResource("3_l1qm2")
+
+[node name="FarmTile2" parent="." unique_id=1031211063 instance=ExtResource("2_lf1fv")]
+position = Vector2(-490, -228)
+script = ExtResource("3_l1qm2")
+
+[node name="FarmTile3" parent="." unique_id=651022960 instance=ExtResource("2_lf1fv")]
+position = Vector2(-382, -227)
+script = ExtResource("3_l1qm2")
+
+[node name="FarmTile4" parent="." unique_id=754889315 instance=ExtResource("2_lf1fv")]
+position = Vector2(-593, -294)
+script = ExtResource("3_l1qm2")
+
+[node name="FarmTile5" parent="." unique_id=1266569143 instance=ExtResource("2_lf1fv")]
+position = Vector2(-595, -228)
+script = ExtResource("3_l1qm2")
+
+[node name="FarmTile6" parent="." unique_id=1126123053 instance=ExtResource("2_lf1fv")]
+position = Vector2(-381, -294)
+script = ExtResource("3_l1qm2")

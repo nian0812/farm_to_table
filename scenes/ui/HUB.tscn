@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://daxe8r34xbkt6"]
 
-[ext_resource type="Script" uid="uid://b0kfdfjh4j0i7" path="res://scenes/ui/HUD.gd" id="1_0ioyp"]
+[ext_resource type="Script" uid="uid://b0kfdfjh4j0i7" path="res://scenes/ui/HUD.gd" id="1_x8s31"]
 
 [node name="Hub" type="CanvasLayer" unique_id=436672543]
-script = ExtResource("1_0ioyp")
+script = ExtResource("1_x8s31")
 
 [node name="TopBar" type="HBoxContainer" parent="." unique_id=1675858900]
 anchors_preset = 10
@@ -47,6 +47,10 @@ text = "Trồng Lúa Tẻ (20k)"
 layout_mode = 2
 text = "Trồng Cà Chua (50k)"
 
+[node name="CabbageBtn" type="Button" parent="SeedSelector/HBoxContainer" unique_id=1746572533]
+layout_mode = 2
+text = "Trồng Bắp (30k)"
+
 [node name="InventoryPanel" type="PanelContainer" parent="." unique_id=455087743]
 visible = false
 offset_right = 40.0
@@ -72,5 +76,8 @@ layout_mode = 2
 text = "Đóng"
 
 [connection signal="pressed" from="TopBar/InventoryBtn" to="." method="_on_inventory_btn_pressed"]
+[connection signal="pressed" from="SeedSelector/HBoxContainer/RiceBtn" to="." method="_on_rice_btn_pressed"]
+[connection signal="pressed" from="SeedSelector/HBoxContainer/TomatoBtn" to="." method="_on_tomato_btn_pressed"]
+[connection signal="pressed" from="SeedSelector/HBoxContainer/CabbageBtn" to="." method="_on_cabbage_btn_pressed"]
 [connection signal="pressed" from="InventoryPanel/VBoxContainer/SendTruckBtn" to="." method="_on_send_truck_btn_pressed"]
 [connection signal="pressed" from="InventoryPanel/VBoxContainer/ClosePanelBtn" to="." method="_on_close_panel_btn_pressed"]
